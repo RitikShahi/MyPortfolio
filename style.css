@@ -1,0 +1,64 @@
+.home{
+    display: flex;
+    height: 100vh;
+    background: linear-gradient(255deg, rgb(94, 61, 61) 60%, rgb(146, 202, 224) 70%);
+ 
+    justify-content: space-evenly;
+    gap: 30px;
+}
+.home img{
+    height: 750px;
+    width: 400px;
+    padding-top: 30px;
+    padding-right: 5px;
+    padding-left: 5px;
+    opacity: 60%;
+    border-radius: 5%;
+}
+.home {
+    display: flex;
+    height: 100vh;
+    background: linear-gradient(255deg, burlywood, rgb(96, 96, 135) 70%);
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+    position: relative; /* Necessary for absolute positioning within */
+}
+
+.home img {
+    height: 750px;
+    width: 400px;
+    padding-top: 30px;
+    padding-right: 5px;
+    padding-left: 5px;
+    opacity: 60%;
+    border-radius: 5%;
+}
+
+.home-text {
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the text horizontally and vertically */
+    text-align: center;
+    color: white;
+    font-size: 2rem; 
+    font-family: "Sacramento", cursive;
+    color: burlywood;
+}
+.about-section{
+    background: whitesmoke;
+    margin-top: 0px;
+}
+.about-section h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+}
+.about-section img{
+    border-radius: 50%;
+}
+.available{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(255deg, burlywood, rgb(50, 60, 95) 70%) ;
+}
